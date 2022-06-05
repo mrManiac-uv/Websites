@@ -1,0 +1,210 @@
+body {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+#logo {
+    margin-left: 2rem;
+    width: 2rem;
+}
+
+#menu {
+    color: white;
+    text-decoration: none;
+}
+
+.Menus {
+    justify-content: flex-end;
+    align-items: flex-start;
+    display: inline-flex;
+    font-size: 1.2rem;
+}
+
+#appButton {
+    font-size: 1em;
+    color: white;
+    border: none;
+    background-image: linear-gradient(to right, rgb(255, 0, 76) 10%, rgb(255, 136, 0));
+    border-radius: 0.6rem;
+    padding: 0.3rem 0.6rem;
+}
+
+#mode {
+    width: 60%;
+    margin-right: 0.5rem;
+}
+
+#menuButton {
+    padding-left: 0;
+    border: 0 solid black;
+}
+
+#mainMenu {
+    /* height: 100vh;
+    background-image: url("imgs/cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+#coverVid {
+    width: 100vw;
+    height: 800px;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    -webkit-filter: blur(0.6rem);
+    filter: blur(0.6rem);
+}
+
+#intro {
+    margin: 26rem 0 2rem 4rem;
+}
+
+#cover {
+    overflow: hidden;
+}
+
+#brand {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 600;
+}
+
+.display-6 {
+    width: 50%;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1.5rem;
+}
+
+#navContents {
+    display: inline;
+    /* margin-left: 1rem; */
+}
+
+#navButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-5 {
+    color: black;
+    font-weight: 540;
+    font-size: 1.6rem;
+    margin: 5rem 0 0 4rem;
+}
+
+.sub {
+    margin-left: 4rem;
+    color: rgb(83, 83, 83);
+}
+
+#firstCard {
+    background-image: url("imgs/white.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4rem;
+}
+
+#gallery1 {
+    margin-top: 12rem;
+}
+
+#gallery2 {
+    margin-top: 0rem;
+}
+
+#gallery3 {
+    margin-top: 4rem;
+}
+
+#post {
+    width: 90%;
+    margin: 2rem 0 0 0;
+    border-radius: 1rem;
+}
+
+#socials {
+    margin: 2rem 0.5rem 4rem 0;
+}
+
+#socials img{
+    width: 1.7%;
+}
+
+#socials a{
+    margin-right: 0.5rem;
+}
+
+@media (max-width: 1200px) {
+    #appButton {
+        font-size: 0.8rem;
+    }
+
+    #socials {
+        margin: 1.5rem 0.5rem 0 0;
+    }
+
+    #coverVid {
+        width: auto;
+        height: 1000px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #appButton {
+        font-size: 0.6rem;
+        font-weight: 600;
+        padding: 0.5rem 0.4rem;
+    }
+
+    #mode {
+        width: 40%;
+        margin-left: 1rem;
+    }
+
+    #socials img{
+        width: 3%;
+    }
+}
+
+@media (max-width: 770px) {
+
+    #appButton {
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 0.3rem 0.6rem;
+    }
+
+    .display-5 {
+        margin-left: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .sub {
+        margin-left: 2rem;
+        font-size: 0.8rem;
+    }
+
+    #mode {
+        width: 50%;
+    }
+
+    #logo {
+        margin-left: 0rem;
+    }
+
+    #intro {
+        margin-top: 20rem;
+        margin-left: 2rem;
+    }
+
+    #socials {
+        margin: 0.8rem 0.5rem 0 0;
+    }
+}

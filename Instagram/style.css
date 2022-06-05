@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: #FAFAFA;
+    margin: 0;
+}
+
+#navbar {
+    color: white;
+    width: 935px;
+    height: 54px;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#navbar form {
+    display: inline;
+    margin: 0;
+}
+
+#Logobox {
+    width: 22.5rem;
+    display: flex;
+    align-items: end;
+}
+#logo {
+    display: inline;
+    width: 110px;
+    margin-top: 0.3rem;
+}
+
+#search {
+    width: 13.44rem;
+    height: 1.75rem;
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 2px;
+    margin-right: 6.8rem;
+}
+#search::placeholder {
+    color: #8E8E8E;
+    font-weight: 300;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+#navIcons {
+    margin: 0;
+    width: 16rem;
+}
+.col-2 {
+    padding: 10px;
+}
+
+#divider {
+    border: 1.3px solid #DBDBDB;
+    margin: 0;
+}
+
+#wrapper {
+    width: 935px;
+    margin: 5rem auto;
+    padding: 0;
+}
+#wrapper hr {
+    color: #FAFAFA;
+    margin: 0;
+}
+
+#storyBox {
+    width: 38.5rem;
+    height: 7.4rem;
+    padding: 7px 5px; margin: 0 0 24px 0;
+    background-color: white;
+    border: 1px solid #DBDBDB;
+    border-radius: 4px;
+    /* display: none; */
+}
+
+#sidebar {
+    padding: 1.5rem 0 0 1rem;
+    display: flex;
+    align-items: flex-start;
+}
+#sidebar p:nth-of-type(1) {
+    /* position: absolute;
+    z-index: 100; */
+    margin: 0.9rem 0 0.5rem 1rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 15px;
+}
+#sidebar p:nth-of-type(2) {
+    /* position: absolute;
+    z-index: 100; */
+    color: #0296F6;
+    margin: 1.5rem 0 0 8.8rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 15px;
+    letter-spacing: -0.05rem;
+}
+#sidebar h6 {
+    position: absolute;
+    z-index: 100;
+    margin: 2rem 0 0 4.9rem;
+    color: #8E8E8E;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 1rem;
+}
+#sidebar h5 {
+    position: absolute;
+    z-index: 100;
+    margin: 5rem 0 0 0;
+    color: #8E8E8E;
+    font-size: 0.9rem;
+    line-height: 15px;
+}
+#sidebar p:nth-of-type(3) {
+    position: absolute;
+    z-index: 100;
+    margin: 5rem 0 0 17rem;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 15px;
+}
+
+#footer {
+    padding-left: 1rem;
+}
+#footer p:nth-of-type(1) {
+    width: 18rem;
+    margin-top: 1rem;
+    font-size: 0.7rem;
+    line-height: 13px;
+    letter-spacing: -0.03rem;
+    color: rgba(142, 142, 142, 0.5);
+}
+#footer p:nth-of-type(2) {
+    font-size: 0.7rem;
+    line-height: 13px;
+    color: rgba(142, 142, 142, 0.4);
+}
+
+#postCard {
+    background-color: white;
+    width: 38.5rem;
+    padding: 0;
+    border: 1px solid #DBDBDB;
+    border-radius: 4px;
+}
+#postCard span:nth-of-type(1) {
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+#optionIcon {
+    margin-left: 28.5rem;
+    width: 1rem;
+}
+
+#post {
+    width: 100%;
+}
+
+#reactBox {
+    padding: 1rem 1.2rem;
+}
+#reactBox p {
+    margin: 0;
+}
+#reactBox h4 {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.05em;
+    color: #8E8E8E;
+    margin: 0.6rem 0;
+}
+
+#like, #comment, #share {
+    width: 1.5rem;
+    margin-right: 0.75rem;
+}
+#save {
+    width: 1.2rem;
+    margin-left: 27rem;
+}
+
+#commentBox {
+    padding: 0 1.2rem;
+    height: 3.3rem;
+    display: flex;
+    align-items: center;
+}
+
+#addComment {
+    margin: 0 1rem;
+    color: #8E8E8E;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+#postButton {
+    margin-left: 24.2rem;
+    font-size: 15px;
+    color: #0296F6;
+}

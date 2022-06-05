@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <section id="wrapper">
+    <div class="block">
+      <div class="one">
+        <h5>Number of Websites</h5>
+        <section class="value">
+          <form>
+            <input type="text" maxlength="256" value="30" id="counter1" disabled="disabled" />
+          </form>
+        </section>
+      </div>
+      <div>
+        <input type="range" min="1" max="100" value="30" class="agencySlider" id="slider1" />
+      </div>
+      <div class="one">
+        <h5>Price charged per client website</h5>
+        <div>
+          <form>
+            <input type="text" maxlength="256" value="$100" id="counter2" disabled="disabled" />
+          </form>
+        </div>
+      </div>
+      <div>
+        <input type="range" min="1" max="200" value="100" class="agencySlider" id="slider2" />
+      </div>
+      <div class="two">
+        <h3>Your Earnings</h3>
+        <section id="earning">
+          <h1>$<span>3000</span></h1>
+        </section>
+      </div>
+    </div>
+  
+    <div class="info">
+      <h1 style="width: 400px;">Pick up an extra source of revenue</h1>
+      <h6>Earn commissions as our agency partner! Secure your client websites with bulk-discounted prices, an a promise of
+        full security from all attacks.</h6>
+      <h6>Automate your work and be a security conscious agency!</h6>
+      <button>Secure your first site ⟩</button>
+    </div>
+  </section>
+  <style>
+    body {
+      font-family: Montserrat, sans-serif;
+    }
+  
+    h5 {
+      font-weight: 600;
+      color: #000;
+    }
+  
+    h3 {
+      font-weight: 700;
+    }
+  
+    h1 {
+      font-weight: 800;
+    }
+  
+    #wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+    }
+  
+    .block {
+      display: grid;
+      line-height: 20px;
+      font-weight: 600;
+      font-family: Montserrat, sans-serif;
+      box-sizing: border-box;
+      width: 500px;
+      height: 423px;
+      padding: 40px 32px;
+      border-radius: 24px;
+      background-color: #fff;
+      box-shadow: -6px 8px 100px 0 rgba(0, 0, 0, .1);
+    }
+  
+    .one {
+      display: grid;
+      grid-template-columns: 5fr 1fr;
+    }
+  
+    .two {
+      display: grid;
+      align-items: center;
+      grid-template-columns: 2fr 1fr;
+    }
+  
+    .value {
+      justify-content: right;
+    }
+  
+    #counter1,
+    #counter2 {
+      background-color: #EEEEEE;
+      border: none;
+      border-radius: 12px;
+      font-weight: 600;
+      text-align: center;
+      width: 60px;
+    }
+  
+    #earning {
+      display: flex;
+      justify-content: right;
+    }
+  
+    .agencySlider {
+      width: 90%;
+      margin: 0 16px;
+    }
+  
+    .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .info h6 {
+      width: 70%;
+      font-size: 1.2rem;
+      line-height: 30px;
+      margin-top: 0;
+    }
+  
+    .info button {
+      background-color: #24BC94;
+      color: white;
+      font-weight: 700;
+      border: none;
+      border-radius: 16px;
+      width: 240px;
+      padding: 16px;
+      margin-top: 16px;
+    }
+  </style>
+  
+  <script>
+
+    let websites = document.body.querySelector("#slider1");
+    let price = document.body.querySelector("#slider2");
+
+    websites.addEventListener("click", function () {
+      document.body.querySelector("#counter1").value = websites.value;
+      let earnings = websites.value * price.value;
+      document.body.querySelector('span').innerText = earnings;
+    });
+
+    
+    price.addEventListener("click", function () {
+      document.body.querySelector("#counter2").value = "$"+price.value;
+      let earnings = websites.value * price.value;
+      document.body.querySelector('span').innerText = earnings;
+    });
+
+    
+  </script>
+</body>
+</html>

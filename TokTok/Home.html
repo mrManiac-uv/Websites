@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="app.css">
+    <title>TokTok</title>
+</head>
+
+<body>
+    <div id="mainMenu">
+        <nav id="nav" class="navbar navbar-expand-md navbar-dark">
+            <div id="navContents" class="container-fluid mx-3 my-3 p-0">
+                <div class="row m-0 p-0">
+                    <div class="col-7 col-md-2 order-2">
+                        <img src="logo.png" id="logo">
+                    </div>
+                    <div id="navButtons" class="col-4 col-md-2 order-3 order-md-3 px-0">
+                        <a href="#"><img id="mode" src="icons/sun.png" alt=""></a>
+                        <button id="appButton">Download App</button>
+                    </div>
+                    <div class="col-1 col-md-8 order-1 order-md-2 px-0">
+                        <button id="menuButton" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse Menus" id="navbarNav">
+                            <ul class="navbar-nav Menus">
+                                <li class="nav-item">
+                                    <a id="menu" class="nav-link" href="#">Documentation</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="menu" class="nav-link" href="#">Community</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="menu" class="nav-link" href="#">Creators</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="menu" class="nav-link" href="#">More</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="cover" class="container-fluid p-0 m-0">
+        <video data-object-fit="true" id="coverVid" class="video" data-autoplay="true" loop="" autoplay=""
+            src="https://media.istockphoto.com/videos/commuters-walking-to-work-slow-motion-rear-view-60fps-video-id1167638000"
+            muted type="video/mp4" poster=""></video>
+        <div id="intro" class="container-fluid">
+            <h1 id="brand" class="display-1 text-white">TOKTOK</h1>
+            <h1 class="display-6 text-white">The First Fans-Creators Incentive Crypto Social Short Video
+                Platform incentivized by BT</h1>
+            <section id="socials">
+                <a href="https://twitter.com"><img src="icons/twitter.png" alt=""></a>
+                <a href="https://discord.com"><img src="icons/discord.png" alt=""></a>
+            </section>
+        </div>
+    </div>
+
+    <div id="firstCard" class="container-fluid">
+        <div class="row p-0">
+            <div class="col-3">
+                <h1 class="display-5">在抖音「看见」世界</h1>
+                <p class="sub">跨越生活半径, 世界比想象更大</p>
+            </div>
+            <div id="gallery1" class="col-3 p-0">
+                <img id="post" src="imgs/beach.jpg">
+                <img id="post" src="imgs/food.jpg">
+                <img id="post" src="imgs/couple.jpg">
+                <img id="post" src="imgs/pug.jpg">
+            </div>
+            <div id="gallery2" class="col-3 p-0">
+                <img id="post" src="imgs/shopping.jpg">
+                <img id="post" src="imgs/designer.jpg">
+                <img id="post" src="imgs/likedGirl.jpg">
+            </div>
+            <div id="gallery3" class="col-3 p-0">
+                <img id="post" src="imgs/chick.jpg">
+                <img id="post" src="imgs/skateboard.jpg">
+                <img id="post" src="imgs/van.jpg">
+                <img id="post" src="imgs/photographer.jpg">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

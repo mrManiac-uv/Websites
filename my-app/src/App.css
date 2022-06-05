@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+hr {
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
+  margin: 0;
+  color: white;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: white;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: white;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: white;
+}
+
+button {
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+}
+
+.gradientButton {
+  background: linear-gradient(90deg, #8800f0 16%, #5828f0 100%);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#logo {
+  width: 4rem;
+  margin: 1rem 0 0 1rem;
+  border-radius: 100%;
+}
+
+.navlinks button {
+  color: black;
+  font-size: 1rem;
+  text-transform: capitalize;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 8px;
+  padding: 6px 16px;
+}
+
+.navlinks button:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid black;
+}
+
+.banner {
+  margin: auto 0;
+  position: relative;
+  z-index: 12;
+  background: linear-gradient(90deg, #5828f0 0%, #8800f0 93.63%);
+}
+.banner p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+#feedback {
+  width: 90%;
+  height: 128px;
+  padding: 3rem 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: white; */
+}
+#feedbackForm {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+#helper-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: grey;
+}
+
+#footer p {
+  color: rgba(255, 255, 255, 0.6);
+  /* line-height: 24px; */
+}
+
+#footer section:nth-child(4) {
+  /* grid-column: 1/4; */
+  /* margin-top: 2rem; */
+}
+
+#footer button {
+  color: white;
+}
