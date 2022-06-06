@@ -1,0 +1,46 @@
+body {
+  background-image: linear-gradient(to bottom, #FFFEF2 25%, #FFF8AA);
+}
+ul {
+  font-weight: 500;
+  list-style-type: disc;
+  padding-left: 2rem;
+}
+
+h4 {
+  font-weight: 700;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: -0.025em;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+hr {
+  width: 90%;
+  border: 2px solid #EC3237;
+  margin: auto;
+}
+
+span {
+  color: #EC3237;
+}
+
+a {
+  color: white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+
+#footTitle {
+  font-weight: 900;
+  font-size: 1.1rem;
+  margin: 3rem auto 2rem auto;
+}
+
+#products {
+  width: 80%;
+  margin: 0 auto;
+}
