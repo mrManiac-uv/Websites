@@ -1,0 +1,45 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+hr {
+  margin: 1rem 0;
+}
+
+.slide {
+  left: 4rem;
+  transition-duration: 200ms;
+}
+
+.expand{
+  transition-duration: 200ms;
+  cursor: pointer;
+}
+.rotate {
+  transform: rotate(180deg) translateY(-16px);
+  transition-duration: 200ms;
+}

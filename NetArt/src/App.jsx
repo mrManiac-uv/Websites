@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import logo from './assets/logo.png'
 import award from './assets/1.png'
 import photo from './assets/2.png'
@@ -12,9 +11,9 @@ function App() {
 
   return (
     <div className="text-center">
-      <img src={logo} className="block w-1/4 m-auto" alt="CRI logo" />
-      <section className="grid grid-cols-[1fr_2fr] w-5/6 mx-auto my-8 text-left">
-        <img src={award} className="w-full" alt="" />
+      <img src={logo} className="block w-1/2 md:w-1/3 xl:w-1/4 m-auto" alt="CRI logo" />
+      <section className="grid lg:grid-cols-[1fr_2fr] w-5/6 mx-auto my-8 text-left">
+        <img src={award} className="w-1/4 lg:w-full m-auto mb-10" alt="" />
         <div>
           <h4>C.R.L. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for the 4th time.</h4>
           <ul>
@@ -26,12 +25,12 @@ function App() {
         </div>
       </section>
       <h4 style={{margin: "4rem 0",}}>INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF POWER FOR THE NATION.</h4>
-      <img src={machines} className="w-3/4 m-auto" alt="" />
+      <img src={machines} className="w-full lg:w-3/4 m-auto" alt="" />
       <h4 style={{margin: "2rem 0", letterSpacing: "0.025em"}}>Valves - Pumps Pipes - IoT Drives & Controllers - Wires & Cables - Solar Systems Motors</h4>
       <hr />
       <h4 id='footTitle'>C.R.L. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS</h4>
-      <h5 id='products'>CHEMICALS & PROCESS <span>|</span> POWER <span>|</span> WATER & WASTE WATER <span>|</span> OILS & GAS <span>|</span> PHARMA <span>|</span> SUGARS & DISTILLERIES <span>|</span> PAPER & PULP <span>|</span> MARINE & DEFENCE <span>|</span> METAL & MINING <span>|</span> FOOD & BEVERAGE <span>|</span> PETROCHEMICAL & REFINERIES <span>|</span> SOLAR <span>|</span> BUILDING <span>|</span> HVAC <span>|</span> FIRE <span>|</span> FIGHTING <span>|</span> AGRICULTURE & RESIDENTIAL</h5>
-      <section className='bg-[#EC3237] grid grid-cols-3 gap-x-32 h-36 m-4 mt-8 py-8 px-44'>
+      <h5 className='w-5/6 lg:w-4/5 mx-auto'>CHEMICALS & PROCESS <span>|</span> POWER <span>|</span> WATER & WASTE WATER <span>|</span> OILS & GAS <span>|</span> PHARMA <span>|</span> SUGARS & DISTILLERIES <span>|</span> PAPER & PULP <span>|</span> MARINE & DEFENCE <span>|</span> METAL & MINING <span>|</span> FOOD & BEVERAGE <span>|</span> PETROCHEMICAL & REFINERIES <span>|</span> SOLAR <span>|</span> BUILDING <span>|</span> HVAC <span>|</span> FIRE <span>|</span> FIGHTING <span>|</span> AGRICULTURE & RESIDENTIAL</h5>
+      <section className='bg-[#EC3237] grid lg:grid-cols-3 gap-y-4 lg:gap-x-32 lg:h-36 lg:m-4 mt-8 py-8 px-16 lg:px-44 text-left'>
         <div>
           <img src={phone} className="inline mx-2" alt="" />
           <a href="tel:+9118002001234">Toll free 1800 200 1234</a>
